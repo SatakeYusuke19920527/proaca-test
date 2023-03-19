@@ -60,9 +60,13 @@ const testFunction3 = () => {
 
   // ****************この中を修正してください。***************
 
-  let box1 = 10;
+  let box1 = 20;
+  let box4 = 10;
   let box2 = box1;
+  let box5 = 20;
   let box3 = box2;
+  let box6 = box4 + box5;
+  box6 = 0;
 
   // ****************************************************
 
