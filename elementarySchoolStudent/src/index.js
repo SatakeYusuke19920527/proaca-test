@@ -64,7 +64,7 @@ const testFunction3 = () => {
   let box4 = 10;
   let box2 = box1;
   let box5 = 20;
-  let box3 = box2;
+  let box3 = box2 - box5 - box4;
   let box6 = box4 + box5;
   box6 = 0;
 
